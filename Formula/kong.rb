@@ -2,12 +2,12 @@ class Kong < Formula
   homepage "http://getkong.org"
 
   stable do
-    url "https://github.com/Mashape/kong/archive/0.5.0.tar.gz"
-    sha256 "cd76bb8a52d535a899500ababcddd9933a028fb4e73b45b783923ccbf224ac67"
+    url "https://github.com/Mashape/kong/archive/0.5.3.tar.gz"
+    sha256 "2e9579c88290dc40519dd760d5b25c7adb5bf499b03c670be038c03864b54998"
   end
 
   head do
-    url "https://github.com/mashape/kong.git"
+    url "https://github.com/mashape/kong.git", :branch => "next"
   end
 
   depends_on "openssl"
